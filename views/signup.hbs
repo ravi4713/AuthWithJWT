@@ -1,0 +1,13 @@
+{{>header}}
+<form  method="post">
+    <h1>Sign up</h1>
+    <label for="email">Email</label>
+    <input type="text" name="email" required />
+    <div class="email error">{{email}}</div>
+    <br>
+    <label for="password">Password</label>
+    <input type="password" name="password" required />
+    <div class="error password">{{password}}</div>
+    <button>Sign up</button>
+</form>
+{{>footer}}
